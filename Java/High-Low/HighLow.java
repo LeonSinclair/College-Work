@@ -50,7 +50,6 @@ public class HighLow
 					currentHand[i].flip();
 				}
 			}
-			knightScanner.close();
 		}
 		displayCards();
 		while(takingInput)
