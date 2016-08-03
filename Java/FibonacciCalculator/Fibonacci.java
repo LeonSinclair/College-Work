@@ -17,9 +17,28 @@ public class Fibonacci
 			else if(inputScanner.hasNextInt())
 			{
 				double targetValue = inputScanner.nextInt();
-				double answer = calculateFibonacci(targetValue);
-				System.out.println(answer);
-			}
+				if(targetValue == 0)
+				{
+					System.out.println("0");
+				}
+				for(int i = 1; i<targetValue; i++)
+				{
+					double answer = calculateFibonacci(i);
+					if(i>=targetValue-1)
+					{
+						System.out.println(answer + ".");
+					}
+					else
+					{
+						System.out.print(answer + ", ");
+					}
+					// this is purely for the sake of presentation
+					if(i%10==0 && i!=0)
+					{
+						System.out.println();
+					}
+					
+				}
 			else
 			{
 				System.out.println("That was not a valid input, please input an integer value next time.");
