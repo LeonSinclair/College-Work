@@ -1,0 +1,7 @@
+#zip files are used for submission, not relevant#
+*.tar.gz
+*.zip
+*.gz
+
+##ignore java metadata##
+*.metadata
