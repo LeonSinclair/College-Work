@@ -77,4 +77,10 @@ public class CheckTriangleTest {
         double[] arr = {6,5,4.1,4.3,7};
         assertEquals("26.4 is the sum in "+ arr.toString(),26.4,CheckTriangle.sum(arr),1);
     }
+    
+    @Test
+    public void newTriangle()
+    {
+    	new CheckTriangle();
+    }
 }

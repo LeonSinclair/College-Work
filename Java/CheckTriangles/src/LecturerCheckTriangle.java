@@ -11,34 +11,34 @@ public class CheckTriangle
 
     public static boolean form_triangle(double[] ls)
     {
-    	//TODO
+    	
        return false;
     }
 
     public static int kind_triangle(double[] ls)
     {
-    	//TODO
+    	
         return NOT_TRI;
     }
 
     //calculate the sum of arr
     public static double sum(double[] arr)
     {
-        //TODO
+        
         return 0.0;
     }
 
 	//returns the maximum element of arr
     public static double max(double[] arr)
     {
-        //TODO
+    	
         return 0.0;
     }
 
     //returns the minimum element of arr
     public static double min(double[] arr)
     {
-    	//TODO
+    	
         return 0.0;
     }
 }

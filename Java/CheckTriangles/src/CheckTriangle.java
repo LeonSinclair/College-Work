@@ -4,7 +4,10 @@ import java.util.Arrays;
 public class CheckTriangle
 {
 
-
+	public CheckTriangle()
+	{
+		
+	}
     public static final int ACUTE_TRI = 2;
     public static final int RIGHT_ANGLED_TRI = 1;
     public static final int OBTUSE_TRI = 3;
@@ -13,7 +16,6 @@ public class CheckTriangle
 
     public static boolean form_triangle(double[] ls)
     {
-    	//TODO
     	//2*max(a,b,c) < sum(a, b, c)
     	//LHS < RHS
     	//if true then is a properly formed triangle
