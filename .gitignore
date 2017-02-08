@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+#zip files are used for submission, not relevant#
+*.tar.gz
+*.zip
+*.gz
+
+##ignore java metadata##
+*.metadata
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 00975c5f8ce02e9ff682e25ec4f9ed6683297175

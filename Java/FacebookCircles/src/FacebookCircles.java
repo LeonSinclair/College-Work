@@ -22,7 +22,6 @@ public class FacebookCircles {
    * Each user will be represented with an integer id from 0 to numberOfFacebookUsers-1.
    */
   public FacebookCircles(int numberOfFacebookUsers) {
-    // TODO
 	circles = new int[numberOfFacebookUsers];
 	for(int i = 0; i <numberOfFacebookUsers; i++)
 	{
@@ -44,8 +43,7 @@ public class FacebookCircles {
    */
   public void friends( int user1, int user2 ) {
 
-    // TODO
-	//union - change the two sets to be equal to each other
+    	//union - change the two sets to be equal to each other
 	//whenever we do union we change the sizes for those two ids to be equal to the sum of the two sizes
 	// then we sort the array - can't do since each id is associated with a position, cannot change the order
 	int user1ID = circles[user1];
