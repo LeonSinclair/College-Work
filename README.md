@@ -1,1 +1,1 @@
-This is a repo for all the work I've done in college that I thought was in some way decent.
+Repo for some of my work from CS1010 and CS2010.
